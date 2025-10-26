@@ -1,0 +1,16 @@
+[project]
+name = "tech-foundations-bootcamp"
+version = "0.1.0"
+description = "Learning path: patterns, SOLID, DDD, containers"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+extend-select = ["I"]
+
+[tool.black]
+line-length = 100
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["week01-02-patterns/python/tests"]
